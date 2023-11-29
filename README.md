@@ -24,8 +24,6 @@ def gets_password_leaks_count(hashes, hash_to_check):
     return 0
 
 
-# The above function shows us the total number of times a password has been leaked.
-
 
 def pwned_api_check(password):
     # check password if it exists in API response
